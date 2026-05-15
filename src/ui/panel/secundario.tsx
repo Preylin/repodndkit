@@ -2,7 +2,7 @@ import React, { useState, type JSX } from "react";
 
 type NavigationItem = "item1" | "item2" | "item3";
 
-export function ShowMain() {
+export function ShowMain1() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const [isHovered, setIsHovered] = useState<boolean>(false);
   const [selectedItem, setSelectedItem] = useState<NavigationItem>("item1");
